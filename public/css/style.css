@@ -1,0 +1,28 @@
+th.sortable {
+    cursor: pointer;
+}
+
+fieldset {
+    margin: initial;
+    padding: 15px;
+    min-width: initial;
+    border: 2px solid #eeeeee;
+    border-radius: 5px;
+}
+
+legend {
+    display: initial;
+    width: initial;
+    max-width: initial;
+    padding: initial;
+    margin-bottom: initial;
+    font-size: initial;
+    line-height: initial;
+    color: initial;
+    white-space: initial;
+}
+
+.validation-messages {
+    color: red;
+    margin-bottom: 20px;
+}

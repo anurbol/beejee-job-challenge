@@ -1,0 +1,16 @@
+{
+  "name": "beejee-job",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Nurbol Alpysbayev <anurbol@gmail.com>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "bootstrap-icons": "^1.0.0-alpha2",
+    "jquery": "^3.4.1"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "merge-stream": "^2.0.0"
+  }
+}

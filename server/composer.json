@@ -1,0 +1,17 @@
+{
+    "name": "anurbol/beejee-job",
+    "authors": [
+        {
+            "name": "Nurbol Alpysbayev",
+            "email": "anurbol@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/database": "^5.8",
+        "illuminate/pagination": "^5.8"
+    },
+    "autoload": {
+        "psr-4": {"App\\": "classes/"},
+        "files": ["include/db.php", "include/utils.php"]
+    }
+}
