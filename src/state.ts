@@ -87,9 +87,6 @@ export const state: DeepReadonly<State> = {
     }
 }
 
-// todo del
-Object.assign(window as any, {state})
-
 export const setState = (setter: (state: DeepReadonly<State>) => DeepReadonly<State>, rerender: boolean = true) => {
     Object.assign(state, setter(state))
     return rerender ? renderFn() : Promise.resolve()
