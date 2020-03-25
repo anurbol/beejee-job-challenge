@@ -1,5 +1,4 @@
 
-// Get Tasks
 import { tasksTable } from "./components/tasksTable.js";
 import { Task, responses, localStorageItems, RequestBody } from "./contracts.js";
 import { init, setState, state, State } from "./state.js";
