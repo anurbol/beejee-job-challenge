@@ -61,7 +61,7 @@ function serve() : Response {
                 case 'tasks': {
                     $task = (array) $request->payload;
                     $task = array_map(function($i) {return htmlspecialchars($i, ENT_QUOTES, 'UTF-8');}, $task);
-                    $created = Capsule::table('tasks')->insert((array) $task);
+                    $created = Capsule::table('tasks')->insert($task);
                     return new Response($created, []);
                 }
 
